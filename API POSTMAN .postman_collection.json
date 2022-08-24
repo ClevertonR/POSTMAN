@@ -1,0 +1,526 @@
+{
+	"info": {
+		"_postman_id": "84c19305-ac6c-4c95-b110-93cbdff60c2f",
+		"name": "API POSTMAN ",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "21024745"
+	},
+	"item": [
+		{
+			"name": "https://postman-echo.com",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					]
+				},
+				"description": "API PSTMAN"
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5368",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim gas\",\r\n    \"email\": \"creitim.gas@novo.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5368",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5368"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5366",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim gas\",\r\n    \"email\": \"creitim.gas@novo.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5366",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5366"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5364",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim gas\",\r\n    \"email\": \"creitim.gas@novo.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5364",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5364"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5364",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim gas\",\r\n    \"email\": \"creitim.gas@novo.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5364",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5364"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim do gas02\",\r\n    \"email\": \"creitim@1555ce.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim do gas02\",\r\n    \"email\": \"creitim@1555ce.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5368",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \r\n    \"name\": \"creitim gas\",\r\n    \"email\": \"creitim.gas@novo.com\",\r\n    \"gender\": \"male\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5368",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5368"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5366",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cleverton Rodrigues\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"cleverton.rodrigues@15ce.com\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5366",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5366"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users/5368",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Cleverton Rodrigues\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"cleverton.rodrigues@15ce.com\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users/5368",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users",
+						"5368"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://gorest.co.in/public/v2/users",
+			"request": {
+				"auth": {
+					"type": "bearer",
+					"bearer": [
+						{
+							"key": "token",
+							"value": "cb407478ccf60e7fbf0953b0a602e46a67fc5332970a1058be1041b5c72050b1",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\": \"Tenali Ramakrishna\",\r\n    \"gender\": \"male\",\r\n    \"email\": \"tenali.ramakrishna@15ce.com\",\r\n    \"status\": \"active\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://gorest.co.in/public/v2/users",
+					"protocol": "https",
+					"host": [
+						"gorest",
+						"co",
+						"in"
+					],
+					"path": [
+						"public",
+						"v2",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "https://postman-echo.com/get",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://postman-echo.com/get",
+					"protocol": "https",
+					"host": [
+						"postman-echo",
+						"com"
+					],
+					"path": [
+						"get"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "{{base_url_homo_vendas}}/v2/minoristas/{{codigoEmpresa}}/locales/{{idLocal}}/cajas/108/movimientos",
+			"event": [
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							""
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"total\": 12,\r\n    \"codigoMoneda\": \"986\",\r\n    \"cotizacion\": 1.00,\r\n    \"fecha\": \"2020-08-13T09:24:00.000-0300\",\r\n    \"documentoCliente\": null,\r\n    \"descuentoTotal\": 0,\r\n    \"recargoTotal\": null,\r\n    \"cancelacion\": false,\r\n    \"numero\": \"000001\",\r\n    \"pagos\": [{\r\n        \"codigoTarjeta\": null,\r\n        \"importe\": 12,\r\n        \"codigoTipoPago\": 9,\r\n        \"codigoMoneda\": \"986\",\r\n        \"cotizacion\": 1.00,\r\n        \"documentoCliente\": null,\r\n        \"bin\": null\r\n    }],\r\n    \"detalles\": [{\r\n        \"importe\": 12,\r\n        \"recargo\": 0,\r\n        \"clasificacionDescuento\": null,\r\n        \"descuento\": 0,\r\n        \"codigoArticulo\": \"00015223214\",\r\n        \"cantidad\": 10,\r\n        \"importeUnitario\": 1.2,\r\n        \"codigoBarras\": \"0086485653412\",\r\n        \"descripcionArticulo\": \"Coca-Cola 600ML\"\r\n    }]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url_homo_vendas}}/v2/minoristas/{{codigoEmpresa}}/locales/{{idLocal}}/cajas/108/movimientos",
+					"host": [
+						"{{base_url_homo_vendas}}"
+					],
+					"path": [
+						"v2",
+						"minoristas",
+						"{{codigoEmpresa}}",
+						"locales",
+						"{{idLocal}}",
+						"cajas",
+						"108",
+						"movimientos"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
